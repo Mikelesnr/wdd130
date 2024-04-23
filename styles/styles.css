@@ -2,10 +2,22 @@ body {
   text-align: center;
 }
 
+h1 {
+  color: orangered;
+}
+
 nav {
   background-color: aqua;
   padding: 10px;
   display: block;
+}
+
+nav a {
+  color: orangered;
+}
+
+nav a:hover {
+  color: darkred;
 }
 
 main {
@@ -23,7 +35,7 @@ aside {
   text-align: center;
 }
 
-aside image {
+aside img {
   width: 200px;
   height: auto;
 }
