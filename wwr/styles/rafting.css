@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital@0;1&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #dea47e;
+  --secondary-color: #9e6240;
+  --accent1-color: #cd4631;
+  --accent2-color: #81adc8;
+
+  --heading-font: "IM Fell Great Primer", serif;
+  --paragraph-font: "Merriweather", serif;
+
+  --nav-background-color: #81adc8;
+  --nav-link-color: #cd4631;
+  --nav-hover-link-color: #dea47e;
+  --nav-hover-background-color: #f8f2dc;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+/* 
+.hero {
+  position: relative;
+} */
+header {
+  padding: 20px;
+  background-color: var(--accent1-color);
+}
+
+header img {
+  width: 100px;
+  height: auto;
+  float: left;
+  margin-bottom: 20px;
+}
+
+p {
+  padding: 25px;
+}
+
+.hero h1 {
+  position: absolute;
+}
+
+article {
+  background-color: var(--accent2-color);
+  opacity: 0.5;
+  position: absolute;
+}
+
+article img {
+  float: right;
+  width: 250px;
+  height: auto;
+}
+
+nav a {
+  color: var(--primary-color);
+  text-decoration: none;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a:link,
+nav a:visited {
+  color: var(--primary-color);
+}
+
+article img {
+  float: right;
+}
+
+p {
+  padding: 25px;
+}
+header nav {
+  font-size: 1.2rem;
+  display: flex;
+  text-justify: distribute;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: x-large;
+}
+
+nav a:hover {
+  color: var(--nav-hover-link-color);
+  background-color: var(--nav-hover-background-color);
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  background-color: var(--accent1-color);
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
