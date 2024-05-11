@@ -103,7 +103,7 @@ footer {
   text-align: center;
 }
 
-nav {
+.sociallinks {
   display: flex;
   justify-content: center;
 }
