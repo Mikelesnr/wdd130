@@ -47,6 +47,10 @@ main img {
   margin-bottom: 10px;
 }
 
+main p {
+  margin: 10px;
+}
+
 aside {
   width: 20rem;
   text-align: center;
