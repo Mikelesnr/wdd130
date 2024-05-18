@@ -156,14 +156,25 @@ nav a:visited {
 /* section adventure */
 
 @media screen and (min-width: 480px) {
-  .adventure {
+  .adventure figure {
+    border: thin var(--primary-color) solid;
     display: flexbox;
-    flex-flow: wrap;
+    flex-flow: column;
+    padding: 5px;
+    margin: 10px;
+    background-color: var(--nav-background-color);
   }
 
-  .adventure img {
-    max-width: 40%;
-    height: auto;
+  .adventure-images {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  figcaption {
+    color: var(--primary-color);
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
   }
 }
 
