@@ -158,7 +158,7 @@ nav a:visited {
 @media screen and (min-width: 480px) {
   .adventure figure {
     border: thin var(--primary-color) solid;
-    display: flexbox;
+    display: flex;
     flex-flow: column;
     padding: 5px;
     margin: 10px;
