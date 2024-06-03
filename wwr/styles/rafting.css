@@ -104,8 +104,9 @@ article {
   height: auto;
 }
 
-p {
-  padding: 25px;
+.article-p {
+  padding: 10px;
+  margin-right: 10px;
 }
 
 /* nav */
@@ -248,4 +249,76 @@ td {
   padding: 10px 30px;
   border-radius: 50%;
   font-size: large;
+}
+
+/* trips */
+.trips-article {
+  width: 150px;
+  height: auto;
+  text-align: center;
+}
+
+.trips-article h2 {
+  margin-top: auto;
+  text-align: center;
+  color: var(--nav-link-color);
+}
+
+.trips-article a:link {
+  text-decoration: none;
+}
+
+.trips-article a:visited {
+  text-decoration: none;
+}
+
+.trips-article a:hover {
+  text-decoration: none;
+}
+
+.trips-article a:active {
+  text-decoration: none;
+}
+
+.trips {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.table-head,
+.table {
+  border-bottom: solid;
+  border-bottom-color: var(--nav-background-color);
+  border-bottom-width: 3px;
+}
+
+/* home */
+.home-article {
+  width: 200px;
+  height: auto;
+  text-align: center;
+}
+
+.button {
+  background-color: var(--nav-background-color);
+  padding: 5px;
+  color: var(--nav-link-color);
+}
+
+.home-article h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  color: var(--nav-link-color);
+}
+
+.subscribe-form {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 450px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
