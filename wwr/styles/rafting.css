@@ -335,3 +335,7 @@ iframe {
 .sociallinks-img {
   padding: 5px;
 }
+
+textarea {
+  width:100%;
+}
