@@ -300,9 +300,10 @@ td {
 }
 
 .button {
-  background-color: var(--nav-background-color);
-  padding: 5px;
-  color: var(--nav-link-color);
+  background-color: rgba(46, 45, 45, 0.8);
+  color: #f8f2dc;
+  padding: 10px 20px;
+  border-radius: 50%;
 }
 
 .home-article h3 {
@@ -321,4 +322,16 @@ td {
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+
+iframe {
+  border: 0;
+}
+
+.sociallinks a {
+  align-items: center;
+}
+
+.sociallinks-img {
+  padding: 5px;
 }
